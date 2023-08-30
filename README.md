@@ -46,13 +46,15 @@ The code is divided into the following main sections:
 
 ### For Testing the Model in StreamLit
 
-3. **Setup Dependencies**: Install the required dependencies by running `pip install tensorflow streamlit`.
+1. **Unzipping the Encoder and Decoder**: Unzip the encoder and decoder and give the path of both of them in the `app.py`. Also give the path of input and output tokenizers in the app.py
 
-4. **Run the Application**: Open your terminal or command prompt and navigate to the directory containing your code. Run the command `streamlit run app.py` to launch the Streamlit app.
+2. **Setup Dependencies**: Install the required dependencies by running `pip install tensorflow streamlit`.
 
-5. **Chat with the Chatbot**: Once the app is running, you can interact with the chatbot. Enter your questions in the input box and press the "Send" button. The chatbot's responses will be displayed in the chat area.
+3. **Run the Application**: Open your terminal or command prompt and navigate to the directory containing your code. Run the command `streamlit run app.py` to launch the Streamlit app.
 
-6. **Reset Conversation**: If you want to clear the conversation history and start a new conversation, click the "Reset Conversation" button.
+4. **Chat with the Chatbot**: Once the app is running, you can interact with the chatbot. Enter your questions in the input box and press the "Send" button. The chatbot's responses will be displayed in the chat area.
+
+5. **Reset Conversation**: If you want to clear the conversation history and start a new conversation, click the "Reset Conversation" button.
 
 ## Customization
 
