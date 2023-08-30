@@ -38,13 +38,17 @@ The code is divided into the following main sections:
 
 ## Usage
 
-1. **Data Preparation**: Ensure that your data is formatted correctly in a file named "Dataset - Final.txt" where each line contains a question and its corresponding answer separated by a tab.
+### For Training the Model
+
+1. **Data Preparation**: Ensure that your data is formatted correctly where each line contains a question and its corresponding answer separated by a tab.
 
 2. **Training**: Run the code to train the chatbot model. The trained encoder and decoder models will be saved to files "encoder_final" and "decoder_final."
 
+### For Testing the Model in StreamLit
+
 3. **Setup Dependencies**: Install the required dependencies by running `pip install tensorflow streamlit`.
 
-4. **Run the Application**: Open your terminal or command prompt and navigate to the directory containing your code. Run the command `streamlit run your_app_name.py` to launch the Streamlit app.
+4. **Run the Application**: Open your terminal or command prompt and navigate to the directory containing your code. Run the command `streamlit run app.py` to launch the Streamlit app.
 
 5. **Chat with the Chatbot**: Once the app is running, you can interact with the chatbot. Enter your questions in the input box and press the "Send" button. The chatbot's responses will be displayed in the chat area.
 
@@ -53,7 +57,6 @@ The code is divided into the following main sections:
 ## Customization
 
 Feel free to customize the code to suit your needs. You can modify the Streamlit UI, adjust the models' hyperparameters, or add more advanced features to enhance the user experience.
-
 
 ## Credits
 
