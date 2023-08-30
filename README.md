@@ -22,12 +22,19 @@ The code is divided into the following main sections:
 
 8. **Model Saving**: The trained encoder and decoder models are saved to files and then zipped.
 
-9. **Inference and Testing**: The code provides a function to test the chatbot by providing a question and receiving a predicted answer.
+9. **Inference using Streamlit**: The user interface is created using Streamlit, a Python library for creating web applications. It allows users to input questions and displays the chatbot's responses in a chat-like format.
+
+## Features
+
+- User-friendly interface for interacting with the chatbot.
+- Conversational responses generated using sequence-to-sequence models.
+- Conversation history is displayed in a chat-like format.
+- Reset button to clear conversation history.
 
 ## Requirements
 
-- Python (tested with version 3.7)
-- TensorFlow (tested with version 2.5)
+- Python (tested with version 3.10.12)
+- TensorFlow (tested with version 2.12.0)
 
 ## Usage
 
@@ -35,24 +42,23 @@ The code is divided into the following main sections:
 
 2. **Training**: Run the code to train the chatbot model. The trained encoder and decoder models will be saved to files "encoder_final" and "decoder_final."
 
-3. **Testing the Chatbot**: After training, you can test the chatbot using the `test` function provided in the code. Simply call the function with a question as an argument, and it will generate a predicted answer.
+3. **Setup Dependencies**: Install the required dependencies by running `pip install tensorflow streamlit`.
+
+4. **Run the Application**: Open your terminal or command prompt and navigate to the directory containing your code. Run the command `streamlit run your_app_name.py` to launch the Streamlit app.
+
+5. **Chat with the Chatbot**: Once the app is running, you can interact with the chatbot. Enter your questions in the input box and press the "Send" button. The chatbot's responses will be displayed in the chat area.
+
+6. **Reset Conversation**: If you want to clear the conversation history and start a new conversation, click the "Reset Conversation" button.
 
 ## Customization
 
-Feel free to customize the code to suit your needs. You can adjust hyperparameters, model architecture, or add more preprocessing steps as required.
+Feel free to customize the code to suit your needs. You can modify the Streamlit UI, adjust the models' hyperparameters, or add more advanced features to enhance the user experience.
+
 
 ## Credits
 
-This code is created by [Your Name] and is based on a sequence-to-sequence model with attention mechanism.
+This code is created by Malik Shahzaib and is based on a sequence-to-sequence model with attention mechanism.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Acknowledgments
-
-Special thanks to [List of contributors or resources that helped].
-
-## References
-
-Provide references to any external resources, tutorials, or research papers that you used for this project.
