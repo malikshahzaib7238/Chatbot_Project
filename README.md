@@ -1,4 +1,4 @@
-# Chatbot with Sequence-to-Sequence Model
+# Converstional Chatbot
 
 This is a Python code that implements a chatbot using a sequence-to-sequence model with attention mechanism. The chatbot takes input sentences (questions) and generates corresponding output sentences (answers) in a conversational manner.
 
@@ -12,7 +12,7 @@ The code is divided into the following main sections:
 
 3. **Data Splitting**: The data is split into training and validation sets.
 
-4. **Model Architecture**: The code defines the architecture of the encoder and decoder models.
+4. **Model Architecture**: The code defines the architecture of the encoder and decoder models. Attention mechanism is also used along with the encoder and decoder mechanism.
 
 5. **Training Pipeline**: The training pipeline includes functions for training the model, calculating loss, and validating the model.
 
