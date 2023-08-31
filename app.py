@@ -72,7 +72,7 @@ decoder = tf.keras.models.load_model("decoder_lstm")
 encoder = tf.keras.models.load_model("encoder_lstm")
 
 
-def evaluate(sentence, decoder, encoder, inp_lang, targ_lang, max_length_inp=40, max_length_targ=24, units=1500):
+def evaluate(sentence, decoder, encoder, inp_lang, targ_lang, max_length_inp=40, max_length_targ=40, units=1500):
     sentence = preprocess_sentence(sentence)
 
     inputs = [inp_lang.word_index[i] for i in sentence.split(' ')]
