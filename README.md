@@ -60,6 +60,10 @@ The code is divided into the following main sections:
 
 Feel free to customize the code to suit your needs. You can modify the Streamlit UI, adjust the models' hyperparameters, or add more advanced features to enhance the user experience.
 
+## Demo
+
+![Image](public/Demo.png)
+
 ## Credits
 
 This code is created by Malik Shahzaib and is based on a sequence-to-sequence model with attention mechanism.
